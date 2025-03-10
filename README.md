@@ -22,19 +22,27 @@
 
 ## 引用
 
-```
-[dependencies]
-gua64="0.0.1"
+```shell
+cargo add gua64
 ```
 
-## 使用方法
+or
+
+```shell
+[dependencies]
+gua64="0.0.5"
+```
+
+## 示例
 
 ```shell
 cargo run --example basic_example
 ```
 
+or
+
 ```rust
-use crate::gua64::Gua64;
+use gua64::Gua64;
 
 fn main() {
     let gua64 = Gua64::new();
@@ -51,6 +59,10 @@ fn main() {
     let is_valid = gua64.verify(&encoded);
     println!("Is valid: {}", is_valid);
 }
+```
+
+```shell
+cargo run
 ```
 
 ## 讚賞

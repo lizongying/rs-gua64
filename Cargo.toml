@@ -1,6 +1,6 @@
 [package]
 name = "gua64"
-version = "0.0.4"
+version = "0.0.5"
 authors = ["Li ZongYing <lizongying@msn.com>"]
 edition = "2024"
 description = "六十四卦編碼，rust實現 如：“hello，世界”會編碼為“䷯䷬䷿䷶䷸䷬䷀䷌䷌䷎䷼䷲䷰䷳䷸䷘䷔䷭䷒〇”"
